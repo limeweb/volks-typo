@@ -100,7 +100,7 @@ The theme is deployed using GitHub Pages with automated deployment via GitHub Ac
 ✅ **Ready for submission!**
 
 1. ✅ Screenshots optimized and ready (all < 500KB each)
-2. ✅ Live demo deployed and working: https://jdrhyne.github.io/Red-Pixel/
+2. ✅ Live demo deployed and working: https://redpixel.uk/
 3. ✅ All links verified and functional
 4. ✅ Latest release tagged: v1.0.1
 5. ✅ Comprehensive documentation complete
