@@ -20,7 +20,7 @@ export const config: SiteConfig = {
   title: "Red-Pixel",
   description: "A blog exploring the intersection of design, typography, and history",
   author: {
-    name: "JPX",
+    name: "All Red",
     bio: "Writer, designer, and explorer of aesthetic tensions between past and present.",
     // avatar: "/images/avatar.jpg" // Uncomment and add your avatar image to public/images/
   },
