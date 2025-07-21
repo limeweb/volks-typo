@@ -32,7 +32,7 @@ All screenshots are optimized and ready for submission.
 
 ### Theme Info
 
-**Theme name:** Volks-Typo
+**Theme name:** RedPixel
 
 **Is your theme free or paid?** Free
 
