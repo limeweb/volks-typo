@@ -17,10 +17,10 @@ export interface SiteConfig {
 }
 
 export const config: SiteConfig = {
-  title: "Volks-Typo",
+  title: "Red-Pixel",
   description: "A blog exploring the intersection of design, typography, and history",
   author: {
-    name: "Your Name",
+    name: "JPX",
     bio: "Writer, designer, and explorer of aesthetic tensions between past and present.",
     // avatar: "/images/avatar.jpg" // Uncomment and add your avatar image to public/images/
   },
@@ -30,7 +30,7 @@ export const config: SiteConfig = {
     linkedin: "https://linkedin.com/in/yourusername",
     email: "your.email@example.com"
   },
-  siteUrl: "https://volks-typo.example.com"
+  siteUrl: "https://redpixel.uk"
 };
 
 // Export constants for SEO component
