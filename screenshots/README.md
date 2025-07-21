@@ -1,34 +1,34 @@
-# Volks-Typo Screenshots
+# Red-Pixel Screenshots
 
 This directory contains screenshots for the Astro theme portal submission and documentation.
 
 ## Required Screenshots
 
-### 1. Featured Image (volks-typo-featured.png)
+### 1. Featured Image (Red-Pixel-featured.png)
 - **Size:** 1280x640px
 - **Purpose:** Main image for Astro theme portal
 - **Content:** Hero shot showcasing the theme's unique Bauhaus/monumental aesthetic
 - **Suggestion:** Split view showing both mobile and desktop layouts with striking typography
 
-### 2. Desktop View (volks-typo-desktop.png)
+### 2. Desktop View (Red-Pixel-desktop.png)
 - **Size:** 1440x900px or similar
 - **Purpose:** Show full desktop layout with sidebar
 - **Content:** Homepage or blog listing with sidebar visible
 - **Key elements:** Header, navigation, sidebar with bio/categories, main content
 
-### 3. Mobile View (volks-typo-mobile.png)
+### 3. Mobile View (Red-Pixel-mobile.png)
 - **Size:** 390x844px (iPhone 14 Pro) or similar
 - **Purpose:** Demonstrate responsive design
 - **Content:** Homepage or blog post on mobile
 - **Key elements:** Mobile navigation, readable typography, proper spacing
 
-### 4. Blog Post (volks-typo-blog-post.png)
+### 4. Blog Post (Red-Pixel-blog-post.png)
 - **Size:** 1440x900px or similar
 - **Purpose:** Showcase typography and content layout
 - **Content:** Full blog post with headings, paragraphs, lists, code blocks
 - **Key elements:** Typography hierarchy, monumental rule, readability
 
-### 5. Categories Page (volks-typo-categories.png)
+### 5. Categories Page (Red-Pixel-categories.png)
 - **Size:** 1440x900px or similar
 - **Purpose:** Show blog organization features
 - **Content:** Categories page with multiple categories and posts

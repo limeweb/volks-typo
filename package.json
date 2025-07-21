@@ -1,5 +1,5 @@
 {
-  "name": "volks-typo",
+  "name": "Red-Pixel",
   "type": "module",
   "version": "1.1.2",
   "description": "An Astro blog theme exploring the aesthetic tension between Bauhaus modernism and WW2-era monumental design",
@@ -16,13 +16,13 @@
   },
   "author": "@jdrhyne",
   "license": "MIT",
-  "homepage": "https://github.com/jdrhyne/volks-typo",
+  "homepage": "https://github.com/jdrhyne/Red-Pixel",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jdrhyne/volks-typo.git"
+    "url": "git+https://github.com/jdrhyne/Red-Pixel.git"
   },
   "bugs": {
-    "url": "https://github.com/jdrhyne/volks-typo/issues"
+    "url": "https://github.com/jdrhyne/Red-Pixel/issues"
   },
   "keywords": [
     "astro",

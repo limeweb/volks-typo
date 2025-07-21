@@ -1,6 +1,6 @@
-# Volks-Typo - Astro Theme Submission Guide
+# Red-Pixel - Astro Theme Submission Guide
 
-This guide helps you prepare and submit Volks-Typo to the Astro theme portal.
+This guide helps you prepare and submit Red-Pixel to the Astro theme portal.
 
 ## Pre-Submission Checklist
 
@@ -14,17 +14,17 @@ This guide helps you prepare and submit Volks-Typo to the Astro theme portal.
 Screenshots have been captured and are ready in the `screenshots/` directory:
 
 **Desktop Views:**
-- `volks-typo-featured-main.png` (1440x900) - Primary submission image
-- `volks-typo-homepage.png` - Homepage with hero section
-- `volks-typo-blog.png` - Blog listing page
-- `volks-typo-post.png` - Individual blog post
-- `volks-typo-about.png` - About page
-- `volks-typo-categories.png` - Categories page
+- `Red-Pixel-featured-main.png` (1440x900) - Primary submission image
+- `Red-Pixel-homepage.png` - Homepage with hero section
+- `Red-Pixel-blog.png` - Blog listing page
+- `Red-Pixel-post.png` - Individual blog post
+- `Red-Pixel-about.png` - About page
+- `Red-Pixel-categories.png` - Categories page
 
 **Mobile Views:**
-- `volks-typo-mobile-home.png` - Mobile homepage
-- `volks-typo-mobile-post.png` - Mobile blog post
-- `volks-typo-mobile-menu.png` - Mobile navigation menu
+- `Red-Pixel-mobile-home.png` - Mobile homepage
+- `Red-Pixel-mobile-post.png` - Mobile blog post
+- `Red-Pixel-mobile-menu.png` - Mobile navigation menu
 
 All screenshots are optimized and ready for submission.
 
@@ -36,9 +36,9 @@ All screenshots are optimized and ready for submission.
 
 **Is your theme free or paid?** Free
 
-**Public repo URL:** https://github.com/jdrhyne/volks-typo
+**Public repo URL:** https://github.com/jdrhyne/Red-Pixel
 
-**Live demo URL:** https://jdrhyne.github.io/volks-typo/
+**Live demo URL:** https://jdrhyne.github.io/Red-Pixel/
 
 **Short description:**
 ```
@@ -47,7 +47,7 @@ A bold, minimalist Astro blog theme combining Bauhaus modernism with striking ty
 
 **Full description for the theme detail page:**
 ```
-Volks-Typo is a bold, minimalist Astro blog theme that combines Bauhaus modernism with striking typography for a professional, high-impact aesthetic.
+Red-Pixel is a bold, minimalist Astro blog theme that combines Bauhaus modernism with striking typography for a professional, high-impact aesthetic.
 
 Key Features:
 • Bold typography with uppercase headings and strong visual hierarchy
@@ -85,7 +85,7 @@ Select all that apply:
 
 ## Deployment for Demo
 
-✅ **Live demo deployed:** https://jdrhyne.github.io/volks-typo/
+✅ **Live demo deployed:** https://jdrhyne.github.io/Red-Pixel/
 
 The theme is deployed using GitHub Pages with automated deployment via GitHub Actions. The deployment includes:
 - All pages and functionality working correctly
@@ -100,7 +100,7 @@ The theme is deployed using GitHub Pages with automated deployment via GitHub Ac
 ✅ **Ready for submission!**
 
 1. ✅ Screenshots optimized and ready (all < 500KB each)
-2. ✅ Live demo deployed and working: https://jdrhyne.github.io/volks-typo/
+2. ✅ Live demo deployed and working: https://jdrhyne.github.io/Red-Pixel/
 3. ✅ All links verified and functional
 4. ✅ Latest release tagged: v1.0.1
 5. ✅ Comprehensive documentation complete

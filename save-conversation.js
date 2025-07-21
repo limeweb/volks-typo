@@ -36,7 +36,7 @@ Date: ${new Date().toISOString()}
 - Platform: ${process.platform}
 
 ## Recent Changes
-- Separated marketing files into volks-typo-marketing repository
+- Separated marketing files into Red-Pixel-marketing repository
 - Cleaned up main theme repository
 - Updated .gitignore to exclude claude-conversations
 
@@ -76,7 +76,7 @@ Session ID: ${SESSION_ID}
 Date: ${new Date().toISOString()}
 
 ## Overview
-This session focused on cleaning up the Volks-Typo theme repository by separating marketing-related files into a dedicated private repository.
+This session focused on cleaning up the Red-Pixel theme repository by separating marketing-related files into a dedicated private repository.
 
 ## Major Accomplishments
 
@@ -88,7 +88,7 @@ This session focused on cleaning up the Volks-Typo theme repository by separatin
   - .github/GOOD_FIRST_ISSUES/ (4 issue templates)
 
 ### 2. Marketing Repository Setup
-- Created comprehensive structure in /tmp/volks-typo-marketing/
+- Created comprehensive structure in /tmp/Red-Pixel-marketing/
 - Added README.md explaining the marketing repo purpose
 - Added .gitignore for marketing-specific files
 - Created setup-marketing-repo.sh script for easy setup
@@ -106,18 +106,18 @@ This session focused on cleaning up the Volks-Typo theme repository by separatin
 ## Technical Decisions
 
 ### Repository Structure
-- **Main Repo (volks-typo)**: Public, theme-only files
-- **Marketing Repo (volks-typo-marketing)**: Private, strategy and growth initiatives
+- **Main Repo (Red-Pixel)**: Public, theme-only files
+- **Marketing Repo (Red-Pixel-marketing)**: Private, strategy and growth initiatives
 
 ### File Organization
 \`\`\`
-volks-typo/                    # Clean theme repository
+Red-Pixel/                    # Clean theme repository
 ├── src/                       # Theme source
 ├── public/                    # Public assets
 ├── screenshots/               # Theme screenshots
 └── claude-conversations/      # Private conversation logs (gitignored)
 
-volks-typo-marketing/          # Separate marketing repository
+Red-Pixel-marketing/          # Separate marketing repository
 ├── MARKETING_PLAN.md          # Strategy document
 ├── .github/GOOD_FIRST_ISSUES/ # Issue templates
 └── README.md                  # Repo documentation

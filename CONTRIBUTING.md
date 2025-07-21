@@ -1,6 +1,6 @@
-# Contributing to Volks-Typo
+# Contributing to Red-Pixel
 
-Thank you for your interest in contributing to Volks-Typo! This minimalist Astro blog theme follows Bauhaus design principles, and we welcome contributions that align with our design philosophy.
+Thank you for your interest in contributing to Red-Pixel! This minimalist Astro blog theme follows Bauhaus design principles, and we welcome contributions that align with our design philosophy.
 
 ## 🎨 Design Philosophy
 
@@ -26,8 +26,8 @@ Before contributing, please understand our core principles:
 
 2. **Clone your fork**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/volks-typo.git
-   cd volks-typo
+   git clone https://github.com/YOUR_USERNAME/Red-Pixel.git
+   cd Red-Pixel
    ```
 
 3. **Install dependencies**
@@ -47,7 +47,7 @@ Before contributing, please understand our core principles:
 
 ### Project Structure
 ```
-volks-typo/
+Red-Pixel/
 ├── src/
 │   ├── components/     # Astro components
 │   ├── content/        # Blog posts and content

@@ -61,4 +61,4 @@ This is design as conversation, where each element speaks only when it has somet
 
 ---
 
-*This post demonstrates the core principles of the Volks-Typo theme in action, showing how historical design languages can inform contemporary digital experiences.*
+*This post demonstrates the core principles of the Red-Pixel theme in action, showing how historical design languages can inform contemporary digital experiences.*

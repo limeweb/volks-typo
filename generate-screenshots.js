@@ -10,9 +10,9 @@ async function generateScreenshots() {
   const context = await browser.newContext();
   
   // Base URL - GitHub Pages live site
-  const baseURL = 'https://jdrhyne.github.io/volks-typo';
+  const baseURL = 'https://jdrhyne.github.io/Red-Pixel';
   
-  console.log('🎨 Generating Volks-Typo theme screenshots for submission...\n');
+  console.log('🎨 Generating Red-Pixel theme screenshots for submission...\n');
   
   // Desktop screenshots (1200px width for high quality)
   const desktopPage = await context.newPage();
@@ -23,7 +23,7 @@ async function generateScreenshots() {
   await desktopPage.goto(baseURL);
   await desktopPage.waitForLoadState('networkidle');
   await desktopPage.screenshot({ 
-    path: join(__dirname, 'screenshots/volks-typo-homepage.png'),
+    path: join(__dirname, 'screenshots/Red-Pixel-homepage.png'),
     fullPage: false
   });
   
@@ -32,7 +32,7 @@ async function generateScreenshots() {
   await desktopPage.goto(`${baseURL}/blog`);
   await desktopPage.waitForLoadState('networkidle');
   await desktopPage.screenshot({ 
-    path: join(__dirname, 'screenshots/volks-typo-blog.png'),
+    path: join(__dirname, 'screenshots/Red-Pixel-blog.png'),
     fullPage: false
   });
   
@@ -41,7 +41,7 @@ async function generateScreenshots() {
   await desktopPage.goto(`${baseURL}/blog/bauhaus-design-principles/`);
   await desktopPage.waitForLoadState('networkidle');
   await desktopPage.screenshot({ 
-    path: join(__dirname, 'screenshots/volks-typo-post.png'),
+    path: join(__dirname, 'screenshots/Red-Pixel-post.png'),
     fullPage: false
   });
   
@@ -50,7 +50,7 @@ async function generateScreenshots() {
   await desktopPage.goto(`${baseURL}/about`);
   await desktopPage.waitForLoadState('networkidle');
   await desktopPage.screenshot({ 
-    path: join(__dirname, 'screenshots/volks-typo-about.png'),
+    path: join(__dirname, 'screenshots/Red-Pixel-about.png'),
     fullPage: false
   });
   
@@ -59,7 +59,7 @@ async function generateScreenshots() {
   await desktopPage.goto(`${baseURL}/categories`);
   await desktopPage.waitForLoadState('networkidle');
   await desktopPage.screenshot({ 
-    path: join(__dirname, 'screenshots/volks-typo-categories.png'),
+    path: join(__dirname, 'screenshots/Red-Pixel-categories.png'),
     fullPage: false
   });
   
@@ -72,7 +72,7 @@ async function generateScreenshots() {
   await mobilePage.goto(baseURL);
   await mobilePage.waitForLoadState('networkidle');
   await mobilePage.screenshot({ 
-    path: join(__dirname, 'screenshots/volks-typo-mobile-home.png'),
+    path: join(__dirname, 'screenshots/Red-Pixel-mobile-home.png'),
     fullPage: false
   });
   
@@ -81,7 +81,7 @@ async function generateScreenshots() {
   await mobilePage.goto(`${baseURL}/blog/bauhaus-design-principles/`);
   await mobilePage.waitForLoadState('networkidle');
   await mobilePage.screenshot({ 
-    path: join(__dirname, 'screenshots/volks-typo-mobile-post.png'),
+    path: join(__dirname, 'screenshots/Red-Pixel-mobile-post.png'),
     fullPage: false
   });
   
@@ -93,7 +93,7 @@ async function generateScreenshots() {
   await mobilePage.click('.hamburger-toggle');
   await mobilePage.waitForTimeout(500); // Wait for animation
   await mobilePage.screenshot({ 
-    path: join(__dirname, 'screenshots/volks-typo-mobile-menu.png'),
+    path: join(__dirname, 'screenshots/Red-Pixel-mobile-menu.png'),
     fullPage: false
   });
   
@@ -112,7 +112,7 @@ async function generateScreenshots() {
   });
   
   await featuredPage.screenshot({ 
-    path: join(__dirname, 'screenshots/volks-typo-featured-main.png'),
+    path: join(__dirname, 'screenshots/Red-Pixel-featured-main.png'),
     fullPage: false
   });
   
@@ -121,15 +121,15 @@ async function generateScreenshots() {
   console.log('\n✅ All screenshots generated successfully!');
   console.log('📁 Check the screenshots/ directory');
   console.log('\nGenerated files:');
-  console.log('  - volks-typo-homepage.png (Desktop homepage)');
-  console.log('  - volks-typo-blog.png (Blog listing)');
-  console.log('  - volks-typo-post.png (Individual post)');
-  console.log('  - volks-typo-about.png (About page)');
-  console.log('  - volks-typo-categories.png (Categories page)');
-  console.log('  - volks-typo-mobile-home.png (Mobile homepage)');
-  console.log('  - volks-typo-mobile-post.png (Mobile blog post)');
-  console.log('  - volks-typo-mobile-menu.png (Mobile navigation)');
-  console.log('  - volks-typo-featured-main.png (Featured screenshot)\n');
+  console.log('  - Red-Pixel-homepage.png (Desktop homepage)');
+  console.log('  - Red-Pixel-blog.png (Blog listing)');
+  console.log('  - Red-Pixel-post.png (Individual post)');
+  console.log('  - Red-Pixel-about.png (About page)');
+  console.log('  - Red-Pixel-categories.png (Categories page)');
+  console.log('  - Red-Pixel-mobile-home.png (Mobile homepage)');
+  console.log('  - Red-Pixel-mobile-post.png (Mobile blog post)');
+  console.log('  - Red-Pixel-mobile-menu.png (Mobile navigation)');
+  console.log('  - Red-Pixel-featured-main.png (Featured screenshot)\n');
 }
 
 // Run the script

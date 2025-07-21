@@ -1,25 +1,25 @@
-# Volks-Typo
+# Red-Pixel
 
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/small.svg)](https://astro.build)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Latest Release](https://img.shields.io/github/v/release/jdrhyne/volks-typo)](https://github.com/jdrhyne/volks-typo/releases)
+[![Latest Release](https://img.shields.io/github/v/release/jdrhyne/Red-Pixel)](https://github.com/jdrhyne/Red-Pixel/releases)
 [![Changelog](https://img.shields.io/badge/changelog-📝-blue.svg)](CHANGELOG.md)
 
 ## 🚀 One-Click Deploy
 
-Deploy your own copy of Volks-Typo with these services:
+Deploy your own copy of Red-Pixel with these services:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jdrhyne/volks-typo)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjdrhyne%2Fvolks-typo&project-name=volks-typo-blog&repository-name=volks-typo-blog)
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/jdrhyne/volks-typo)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jdrhyne/Red-Pixel)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjdrhyne%2FRed-Pixel&project-name=Red-Pixel-blog&repository-name=Red-Pixel-blog)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/jdrhyne/Red-Pixel)
 
-![Volks-Typo 3D Showcase](screenshots/volks-typo-3d-showcase.png)
+![Red-Pixel 3D Showcase](screenshots/Red-Pixel-3d-showcase.png)
 
-A striking Astro blog theme that explores the aesthetic tension between Bauhaus modernism and WW2-era monumental design. Volks-Typo creates a "dissonant harmony" that is visually compelling, highly functional, and conceptually rich.
+A striking Astro blog theme that explores the aesthetic tension between Bauhaus modernism and WW2-era monumental design. Red-Pixel creates a "dissonant harmony" that is visually compelling, highly functional, and conceptually rich.
 
 <div align="center">
-  <img src="screenshots/homepage-light.png" width="49%" alt="Volks-Typo Light Mode" />
-  <img src="screenshots/homepage-dark.png" width="49%" alt="Volks-Typo Dark Mode" />
+  <img src="screenshots/homepage-light.png" width="49%" alt="Red-Pixel Light Mode" />
+  <img src="screenshots/homepage-dark.png" width="49%" alt="Red-Pixel Dark Mode" />
 </div>
 
 *Seamless dark mode support with carefully crafted contrast and visibility*
@@ -63,9 +63,9 @@ A striking Astro blog theme that explores the aesthetic tension between Bauhaus 
 
 ## 🚀 Demo & Releases
 
-- **Live Demo:** [https://jdrhyne.github.io/volks-typo/](https://jdrhyne.github.io/volks-typo/)
-- **Latest Release:** [v1.1.2](https://github.com/jdrhyne/volks-typo/releases/latest)
-- **All Releases:** [View on GitHub](https://github.com/jdrhyne/volks-typo/releases)
+- **Live Demo:** [https://jdrhyne.github.io/Red-Pixel/](https://jdrhyne.github.io/Red-Pixel/)
+- **Latest Release:** [v1.1.2](https://github.com/jdrhyne/Red-Pixel/releases/latest)
+- **All Releases:** [View on GitHub](https://github.com/jdrhyne/Red-Pixel/releases)
 - **Changelog:** [CHANGELOG.md](CHANGELOG.md)
 
 ## 💻 Tech Stack
@@ -88,20 +88,20 @@ A striking Astro blog theme that explores the aesthetic tension between Bauhaus 
 
 ```bash
 # npm
-npm create astro@latest -- --template jdrhyne/volks-typo
+npm create astro@latest -- --template jdrhyne/Red-Pixel
 
 # pnpm
-pnpm create astro@latest --template jdrhyne/volks-typo
+pnpm create astro@latest --template jdrhyne/Red-Pixel
 
 # yarn
-yarn create astro --template jdrhyne/volks-typo
+yarn create astro --template jdrhyne/Red-Pixel
 ```
 
 ### Manual Installation
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/jdrhyne/volks-typo.git my-blog
+git clone https://github.com/jdrhyne/Red-Pixel.git my-blog
 cd my-blog
 ```
 
@@ -128,7 +128,7 @@ yarn dev
 ## 📁 Project Structure
 
 ```
-volks-typo/
+Red-Pixel/
 ├── public/
 │   ├── favicon.svg          # Site favicon
 │   ├── site-title.svg       # Fraktur-style site title
@@ -175,7 +175,7 @@ All site configuration is centralized in `src/config.ts`:
 
 ```typescript
 export const config = {
-  title: "Volks-Typo",
+  title: "Red-Pixel",
   description: "A blog exploring the intersection of design, typography, and history",
   author: {
     name: "Your Name",
@@ -197,7 +197,7 @@ export const config = {
 
 ### Typography
 
-Volks-Typo uses a modern, clean typography system focused on readability and strong hierarchy:
+Red-Pixel uses a modern, clean typography system focused on readability and strong hierarchy:
 
 - **Primary Headings:** Oswald - Bold, condensed sans-serif for maximum impact
 - **Secondary Headings:** Roboto Condensed - Clean, professional condensed font
@@ -329,7 +329,7 @@ All commands are run from the root of the project:
 
 ## 🚀 Deployment
 
-Volks-Typo can be deployed to any static hosting service. The theme now supports environment-based configuration for different deployment scenarios.
+Red-Pixel can be deployed to any static hosting service. The theme now supports environment-based configuration for different deployment scenarios.
 
 ### Configuration
 
@@ -363,7 +363,7 @@ npm run build
 ```bash
 # Set in .env
 SITE=http://localhost:4321
-BASE_PATH=/volks-typo/
+BASE_PATH=/Red-Pixel/
 
 npm run dev
 ```
@@ -379,7 +379,7 @@ SITE=https://example.com BASE_PATH=/blog/ npm run build
 
 ## 📊 Performance
 
-Volks-Typo is optimized for speed and efficiency:
+Red-Pixel is optimized for speed and efficiency:
 
 - **Zero JavaScript** - Pure HTML and CSS
 - **Minimal CSS** - ~20KB gzipped total
@@ -450,13 +450,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📋 Project Information
 
 - **Changelog:** [CHANGELOG.md](CHANGELOG.md) - Detailed version history and release notes
-- **Releases:** [GitHub Releases](https://github.com/jdrhyne/volks-typo/releases) - Download specific versions
-- **Issues:** [GitHub Issues](https://github.com/jdrhyne/volks-typo/issues) - Bug reports and feature requests
-- **Discussions:** [GitHub Discussions](https://github.com/jdrhyne/volks-typo/discussions) - Community support
+- **Releases:** [GitHub Releases](https://github.com/jdrhyne/Red-Pixel/releases) - Download specific versions
+- **Issues:** [GitHub Issues](https://github.com/jdrhyne/Red-Pixel/issues) - Bug reports and feature requests
+- **Discussions:** [GitHub Discussions](https://github.com/jdrhyne/Red-Pixel/discussions) - Community support
 
 ## 💬 Support
 
 - **Author:** [@jdrhyne](https://github.com/jdrhyne) • Personal blog: [jdrhyne.me](https://jdrhyne.me) (under construction 🚧) 
 ---
 
-**[Volks-Typo](https://github.com/jdrhyne/volks-typo)** by [@jdrhyne](https://github.com/jdrhyne) • MIT License
+**[Red-Pixel](https://github.com/jdrhyne/Red-Pixel)** by [@jdrhyne](https://github.com/jdrhyne) • MIT License

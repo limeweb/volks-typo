@@ -37,7 +37,7 @@ jobs:
         run: npm run build
         env:
           SITE: https://jdrhyne.github.io
-          BASE_PATH: /volks-typo/
+          BASE_PATH: /Red-Pixel/
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
